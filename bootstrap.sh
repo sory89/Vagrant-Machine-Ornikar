@@ -1,6 +1,6 @@
 echo "[TASK 1] Create user admin ans password"
 useradd  -mG wheel admin
-echo itversity | passwd admin --stdin
+echo itsory | passwd admin --stdin
 
 #sudo echo "192.168.100.200 server00.tech-sory.com server00 kubespray" >> /etc/hosts
 
