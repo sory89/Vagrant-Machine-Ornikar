@@ -8,6 +8,7 @@ Vagrant enables users to create and configure lightweight, reproducible, and por
 
 to clone the project.
 
+```
 $ git clone https://github.com/sory89/Vagrant-Machine-Ornikar.git
 
 $ cd Vagrant-Machine-Ornikar
@@ -24,6 +25,7 @@ to delete the VM
 
 $ vagrant delete --force
 
+```
 ### After Build a VM
 
 I use  [mobaxterm](https://mobaxterm.mobatek.net/?) the connect on the instance of the VM with the IP adress of the machine.
@@ -32,6 +34,7 @@ I use  [mobaxterm](https://mobaxterm.mobatek.net/?) the connect on the instance 
 
 This will create one virtual machines with IP adress 192.168.100.200, the size is 8 GB memory and 2 CPUs.
 
+```
 ---
   instances: 1
   provider: virtualbox
@@ -45,5 +48,6 @@ This will create one virtual machines with IP adress 192.168.100.200, the size i
   box: ubuntu/bionic64
   path: bootstrap.sh
   
+```
 
 The script bootstrap.sh is to make provisionning (here I install Helm, Kubernetes with Minikube, and other package ...)
